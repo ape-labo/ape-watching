@@ -10,4 +10,7 @@ script:
 - npm run build
 - npm run test
 - npm run cover
-#- npm run report
+- npm run report
+env:
+  global:
+    secure: nJLivoXxcwVECBnDy4nJQB+N5zLZNZd7rAq2KyK7edeUd5i8q++f4hjD5xvbhcah/getYKGbUrDKubM8rmpcg/MRCIcEz4Z8EQt5puY0ZCILFFfgJTBqcjNlNWVbqgq3u2kIGuzExaIGrwx/e7BxedKI+TzzvwpsWZN7uZGxATKqByrh537r28M1PB7xgpejtssamcshbGMDf0CvPphCrTUrcXMx2oMRSFELW1/Fp2Xm6VP/VvOViKeeFLK88zl1IMGlvsHTiHAYlZwq5QDr/UpwFC1MrD4mK1+BXeSSQ82t0HWhoHIahZOMI/iTCyiP2xt6F8ISZqHPucizL5wdvEasQNtVtlJ1QgtXm4exjj4o1aX71UUhKj1On43Xn/t88EzAidAjgJRl+DZwIUjYVWyqXxItzZE9o62/CjwotCiWJiNbC9xdKATWhaH1gRLLcRs8PH/qp3mwdD7g7I6ag/dJJnWJfZIFB139c0jZlSRVTgH9UvapJDr3D7r81ituvXKii0nxwZSiJ6+GfF10GgeIY+g7gdpXf1Ap4mgyHy19uqF+wclfMhyIF2j8EbhcA1pQLRyUyW2ot0VpqeCbihFaKOHJgBEn4GJxoRdqALJRn7VNL8t/2WvrC/HzVYrHJE0PtTYAp6KlYhkRd8JrKq6D+zBooPl+PNiKjl9DgGo=
