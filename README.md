@@ -28,7 +28,7 @@ ape-watching
 <!-- Description Start -->
 <a name="description"></a>
 
-ape framework module for wathing files.
+ape framework module for watching files.
 
 <!-- Description End -->
 

@@ -1,7 +1,7 @@
 {
   "name": "ape-watching",
-  "version": "1.0.1",
-  "description": "ape framework module for wathing files.",
+  "version": "1.0.2",
+  "description": "ape framework module for watching files.",
   "main": "lib",
   "scripts": {
     "build": "./ci/build.js",
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "ape",
+    "file",
     "watching"
   ],
   "author": {
