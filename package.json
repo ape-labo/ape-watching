@@ -32,7 +32,8 @@
     "arrayfilter": "^1.1.0",
     "async": "^1.4.2",
     "colorprint": "^1.1.2",
-    "expandglob": "^1.0.0"
+    "expandglob": "^1.0.0",
+    "fwatcher": "^2.0.0"
   },
   "devDependencies": {
     "ape-covering": "^1.0.8",
