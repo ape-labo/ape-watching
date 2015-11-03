@@ -43,9 +43,9 @@ ape framework module for watching files.
 <!-- Sections Start -->
 <a name="sections"></a>
 
-<!-- Section from "docs/readme/02.Usage.md.hbs" Start -->
+<!-- Section from "doc/readme/02.Usage.md.hbs" Start -->
 
-<a name="section-docs-readme-02-usage-md"></a>
+<a name="section-doc-readme-02-usage-md"></a>
 Usage
 ----
 
@@ -73,7 +73,7 @@ setTimeout(function () {
 
 
 
-<!-- Section from "docs/readme/02.Usage.md.hbs" End -->
+<!-- Section from "doc/readme/02.Usage.md.hbs" End -->
 
 
 <!-- Sections Start -->
