@@ -1,6 +1,6 @@
 {
   "name": "ape-watching",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "ape framework module for watching files.",
   "main": "lib",
   "scripts": {
