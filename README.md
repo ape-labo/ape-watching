@@ -53,19 +53,20 @@ Usage
 
 ```javascript
 #!/usr/bin/env
+"use strict";
 
-var apeWatching = require('ape-watching');
+const apeWatching = require('ape-watching');
 
-var watchers = apeWatching.watchFiles([
+const watchers = apeWatching.watchFiles([
     'src/javascripts/**/*.js',
     'assets/javascripts/**/*.js'
-], function (ev, filename) {
+], (ev, filename) => {
     /*...*/
 });
 
 
-setTimeout(function () {
-    watchers.forEach(function (watcher) {
+setTimeout(() => {
+    watchers.forEach((watcher) => {
         watcher.close(); // Stop watching
     });
 }, 1000);
