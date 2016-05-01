@@ -1,18 +1,17 @@
 #!/usr/bin/env
-"use strict";
+'use strict'
 
-const apeWatching = require('ape-watching');
+const apeWatching = require('ape-watching')
 
 const watchers = apeWatching.watchFiles([
-    'src/javascripts/**/*.js',
-    'assets/javascripts/**/*.js'
+  'src/javascripts/**/*.js',
+  'assets/javascripts/**/*.js'
 ], (ev, filename) => {
-    /*...*/
-});
-
+  /* ... */
+})
 
 setTimeout(() => {
-    watchers.forEach((watcher) => {
-        watcher.close(); // Stop watching
-    });
-}, 1000);
+  watchers.forEach((watcher) => {
+    watcher.close() // Stop watching
+  })
+}, 1000)
